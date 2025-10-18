@@ -60,7 +60,7 @@ const ProductDetailPage: React.FC = () => {
     );
   }
 
-  const WHATSAPP_NUMBER = '6285363619829';
+  const WHATSAPP_NUMBER = '6281275417695';
   const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     `Halo, saya tertarik dengan produk ${product.nama_produk}. Apakah masih tersedia?`
   )}`;
