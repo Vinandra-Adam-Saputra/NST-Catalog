@@ -1,0 +1,5 @@
+{
+  "name": "NSTORE E-Catalog",
+  "description": "A clean, minimalist, and fully responsive e-catalog website for a mobile phone store. It provides customers with an elegant way to view products and a secure dashboard for the admin to manage inventory.",
+  "requestFramePermissions": []
+}
