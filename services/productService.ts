@@ -108,7 +108,7 @@ export async function updateProduct(id: string, payload: Partial<Product>): Prom
   const fixedPayload = {
     ...payload,
     gambar: payload.gambar && payload.gambar.length > 0 ? payload.gambar : [],
-    thumbnail: payload.gambar?.[0] || payload.thumbnail || null, // ✅ pastikan thumbnail ikut diupdate
+    thumbnail: payload.gambar?.[0] || payload.thumbnail || null, 
   }
 
   const { data, error } = await supabase
